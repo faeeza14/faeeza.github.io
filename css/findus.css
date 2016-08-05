@@ -1,0 +1,169 @@
+ @keyframes example {
+    from {background-color: #fff;}
+    to {background-color: #837EB1;}
+}
+
+@font-face {
+    font-family: 'Market-Deco';
+    src:url('../font/marketdeco/Market-Deco.ttf.woff') format('woff'),
+        url('../font/marketdeco/Market-Deco.ttf.svg#Market-Deco') format('svg'),
+        url('../font/marketdeco/Market-Deco.ttf.eot'),
+        url('../font/marketdeco/Market-Deco.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #000;
+	font-family: 'Market-Deco';
+}
+
+#container {
+	width: 1366px;
+	height: 768px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.fix{
+	clear: both;
+}
+
+nav {
+	width: 1366px;
+	height: 71.86px;
+	background-color: #1C2B66;
+	box-sizing: border-box;
+}
+
+.textlogo img {
+	width: 216.736px;
+	height: 71.86px;
+}
+
+nav a {
+	color: #fff;
+	float: right;
+	margin: 29px 40px 0 0;
+	font-family: 'Market-Deco';
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-size: 2em;	
+}
+
+img.textlogo {
+	width: 216.736px;
+	height: 71.86;
+	margin-left:  25.777px; 
+}
+
+#banner {
+	width: 1366px;
+	height: 218.068px;
+}
+
+img.banner1 {
+	width: 1366px;
+	height: 218.068px;
+}
+
+img.logo {
+	width: 110.853px;
+	height: 168.737px;
+	position: absolute;
+	z-index: 2;
+	top: 100px;
+	left: 20px;
+}
+
+header h1 {
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+	top: 95px;
+	left: 148px;
+	font-size: 4.5em;
+}
+
+#map_canvas {
+	position: absolute;
+	z-index: 2;
+	top: 400px;
+	left: 57px;
+}
+
+map input.controls {
+	width: 450px;
+	height: 25px;
+	z-index: 2;
+	position: absolute;
+	margin-top: 10px;
+	padding-left: 20px;
+
+}
+
+section img {
+	width: 129.219px;
+	height: 40px;
+	z-index: 2;
+	position: absolute;
+	left: 918px;
+	top: 330px;
+}
+
+section form input {
+	width: 241.563px;
+	height: 34px;
+	float: right;
+	margin: 40px 66px 0 0;
+	background-color: transparent;
+	color: #fff;
+	padding-left: 10px;
+	
+}
+
+footer {
+
+}
+
+
+footer img {
+	width: 1366px;
+	height: 9px;
+	margin-top: 500px;
+}
+
+#social img {
+	width: 33px;
+	height: 33px;
+}
+
+.twitter {
+	z-index: 2;
+	position: absolute;
+	top: 357px;
+	left: 1297px;
+}
+
+.email {
+	z-index: 2;
+	position: absolute;
+	top: 357px;
+	left: 1097px;
+}
+
+.fb {
+	z-index: 2;
+	position: absolute;
+	top: 357px;
+	left: 1163px;
+}
+
+.instagram {
+	z-index: 2;
+	position: absolute;
+	top: 357px;
+	left: 1230px;
+}

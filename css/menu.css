@@ -1,0 +1,304 @@
+ @keyframes example {
+    from {background-color: #fff;}
+    to {background-color: #1C2B66;}
+}
+
+@font-face {
+    font-family: 'Market-Deco';
+    src:url('../font/marketdeco/Market-Deco.ttf.woff') format('woff'),
+        url('../font/marketdeco/Market-Deco.ttf.svg#Market-Deco') format('svg'),
+        url('../font/marketdeco/Market-Deco.ttf.eot'),
+        url('../font/marketdeco/Market-Deco.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #000;
+	font-family: 'Market-Deco';
+}
+
+#container {
+	width: 1366px;
+	height: 893.358px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.fix{
+	clear: both;
+}
+
+nav {
+	width: 1366px;
+	height: 71.86px;
+	background-color: #1C2B66;
+	box-sizing: border-box;
+}
+
+.textlogo img {
+	width: 216.736px;
+	height: 71.86px;
+}
+
+nav a {
+	color: #fff;
+	float: right;
+	margin: 29px 40px 0 0;
+	font-family: 'Market-Deco';
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-size: 2em;	
+}
+
+img.textlogo {
+	width: 216.736px;
+	height: 71.86;
+	margin-left:  25.777px; 
+}
+
+#banner {
+	width: 1366px;
+	height: 218.068px;
+}
+
+img.banner1 {
+	width: 1366px;
+	height: 218.068px;
+}
+
+img.logo {
+	width: 80.853px;
+	height: 138.737px;
+	position: absolute;
+	z-index: 2;
+	top: 133.72px;
+	left: 25px;
+}
+
+header h1 {
+	color: #fff;
+	position: absolute;
+	z-index: 2;
+	top: 94px;
+	right: 131px;
+	font-size: 4.5em;
+}
+
+section#one-half {
+	width: 1366px;
+	height: 526px;
+	margin-top: 25px;
+}
+
+section#one-half img {
+	width: 1020.709px;
+	height: 526px;
+}
+
+section#one-half. {
+	width: 279.126px;
+	height: 526px;
+	margin-left: 17.874px;
+	background-color: #1C2B66;
+	color: #fff;
+}
+
+section#form {
+	float: right;
+	width: 168.449px;
+}
+
+section#form input {
+	width: 158.446px;
+	height: 35px;
+	background-color: transparent;
+	color: #fff;
+	padding-left: 10px;
+
+}
+
+section#form input.loyalty {
+	position: absolute;
+	z-index: 2;
+	top: 448.679px;
+	right: 24px;
+}
+
+section#form input.name {
+	position: absolute;
+	z-index: 2;
+	top: 645px;
+	right: 24px;
+}
+
+section#form input.surname {
+	position: absolute;
+	z-index: 2;
+	top: 695px;
+	right: 24px;
+}
+
+section#form input.cell {
+	position: absolute;
+	z-index: 2;
+	top: 745px;
+	right: 24px;
+}
+
+section#form input.submit {
+	position: absolute;
+	z-index: 2;
+	top: 815px;
+	right: 85px;
+	border-radius: 10px;
+	background-color: #1C2B66;
+	font-family: 'Market-Deco';
+	font-size: 1.5em;
+	padding-top: 2px;
+}
+
+
+#button img {
+	width: 122px;
+	height: 41px;
+	position: absolute;
+	z-index: 3;
+}
+
+#button img.loyalty {
+	top: 448.679px;
+	right: 197px;
+}
+
+#button img.name {
+	top: 645px;
+	right: 197px;
+}
+
+#button img.surname {
+	top: 695px;
+	right: 197px;
+}
+
+#button img.cell {
+	top: 745px;
+	right: 197px;
+}
+
+h1#member {
+	z-index: 2;
+	position: absolute;
+	top: 250px;
+	left: 1047px;
+	color: #fff;
+	font-size: 6em;
+}
+
+h2 {
+	z-index: 2;
+	position: absolute;
+	color: #fff;
+	font-size: 5em;
+	top: 498px;
+	left: 1047px;
+}
+
+
+
+
+
+
+img.pattern {
+	width: 271.26px;
+	height: 74.381px;
+	z-index: 2;
+	position: absolute;
+	top: 499px;
+	right: 34px;
+}
+
+
+
+footer img {
+	width: 1366px;
+	height: 9px;
+	margin-top: 72.75px;
+}
+
+#social img {
+	width: 33px;
+	height: 33px;
+}
+
+.twitter {
+	z-index: 2;
+	position: absolute;
+	top: 830px;
+	left: 1297px;
+}
+
+.email {
+	z-index: 2;
+	position: absolute;
+	top: 830px;
+	left: 1097px;
+}
+
+.fb {
+	z-index: 2;
+	position: absolute;
+	top: 830px;
+	left: 1163px;
+}
+
+.instagram {
+	z-index: 2;
+	position: absolute;
+	top: 830px;
+	left: 1230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

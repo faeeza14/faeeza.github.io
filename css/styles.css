@@ -1,0 +1,366 @@
+ @keyframes example {
+    from {color: #fff;}
+    to {color: #1C2B66;}
+}
+
+@font-face {
+    font-family: 'Market-Deco';
+    src:url('../font/marketdeco/Market-Deco.ttf.woff') format('woff'),
+        url('../font/marketdeco/Market-Deco.ttf.svg#Market-Deco') format('svg'),
+        url('../font/marketdeco/Market-Deco.ttf.eot'),
+        url('../font/marketdeco/Market-Deco.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #000;
+	font-family: 'Market-Deco';
+}
+
+#container {
+	width: 1366px;
+	height: 2400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.fix{
+	clear: both;
+}
+
+nav {
+	width: 1366px;
+	height: 71.86px;
+	background-color: #1C2B66;
+	box-sizing: border-box;
+}
+
+.textlogo img {
+	width: 216.736px;
+	height: 71.86px;
+}
+
+nav a {
+	color: #fff;
+	float: right;
+	margin: 29px 40px 0 0;
+	font-family: 'Market-Deco';
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-size: 2em;	
+}
+
+img.textlogo {
+	width: 216.736px;
+	height: 71.86;
+	margin-left:  25.777px; 
+}
+
+header.banner {
+	width: 1366px;
+	height: 270px;
+	box-sizing: border-box;
+}
+
+img.topbannerleft {
+	width: 588.784px;
+	height: 270px;
+	float: left;
+}
+
+img.logo {
+	width: 125.735px;
+	height: 215.75px;
+	margin-left: 31.81px;
+}
+
+img.topbannerright {
+	width: 588.784px;
+	height: 270px;
+	float: right;
+}
+
+.triangles img {
+	width: 1366px;
+	height: 339.664px;
+	float: left;
+}
+
+.infobar {
+	width: 1366px;
+	height: 63.767px;
+	float: left;
+}
+
+.whoarewe {
+	width: 1366px;
+	float: left;
+	margin-top: 67px;
+}
+
+#ourcoffee img {
+	width: 1366px;
+	height: 319.75px;
+	margin-top: 120.25px;
+
+}
+
+section#ourstory {
+	width: 1366px;
+	height: 402px;
+	display: block;
+	float: left;
+}
+
+#ourstory img {
+	width: 841.986px;
+	height: 402px;
+	margin-top: 60px;
+}
+
+.header {
+	font-size: 7.5em;
+	position: absolute;
+	z-index: 2;
+	top: 1335px;
+	left: 78px;
+	color: #fff;
+}
+
+.storycontent {
+	font-size: 1.1em;
+	position: absolute;
+	z-index: 2;
+	top: 1600px;
+	left: 85px;
+	color: #fff;
+	width: 598.848px;
+	text-align: center;
+}
+
+
+
+
+#timeline img {
+	width: 58.173px;
+	height: 60.902px;
+}
+
+.date1 {
+	position: absolute;
+	z-index: 2;
+	top: 1345px;
+	left: 836.315px;
+}
+
+.date2 {
+	position: absolute;
+	z-index: 2;
+	top: 1450px;
+	left: 836.315px;
+}
+
+.date3 {
+	position: absolute;
+	z-index: 2;
+	top: 1555px;
+	left: 836.315px;
+}
+
+.date4 {
+	position: absolute;
+	z-index: 2;
+	top: 1660px;
+	left: 836.315px;
+}
+
+#dateinfo p {
+	z-index: 2;
+	position: absolute;
+	width: 426.628px;
+	color: #fff;
+	left: 921.136px;
+}
+
+.d1 {
+	top: 1405px;
+}
+
+.d2 {
+	top: 1508px; 
+}
+
+.d3 {
+	top: 1612px;}
+
+.d4 {
+	top: 1717px;
+}
+
+#ourcoffee img {
+	margin-top: 180px;
+}
+
+#coffeenav img {
+	width: 212.975px;
+	height: 212.975px;
+	margin-top: 120px;
+}
+
+img.roasting {
+	z-index: 4;
+	position: absolute;
+	top: 1930px;
+	left: 208.952px;
+}
+
+img.blendsorigin {
+	z-index: 4;
+	position: absolute;
+	top: 1930px;
+	left: 416.941px;
+}
+
+img.farming {
+	z-index: 2;
+	position: absolute;
+	top: 1750px;
+	left: 113px;
+}
+
+img.storeprep {
+	z-index: 3;
+	position: absolute;
+	top: 1750px;
+	left: 314px;
+}
+
+#coffeenav a:hover {
+	color: #fff;
+	opacity: .5%;
+}
+
+#oureats img {
+	width: 1366px;
+	height: 317.318px;
+	margin-top: 114px;
+}
+
+#oureatscontent h1 {
+	font-size: 7em;
+	position: absolute;
+	z-index: 2;
+	top: 2280px;
+	left: 55px;
+	color: #fff;
+}
+
+#oureatscontent h2 {
+	font-size: 1.6em;
+	position: absolute;
+	z-index: 2;
+	top: 2460px;
+	left: 63.616px;
+	color: #fff;
+}
+
+.eatscontent {
+	font-size: 1.1em;
+	position: absolute;
+	z-index: 2;
+	top: 2500px;
+	left: 63.616px;
+	color: #fff;
+	width: 486.94px;
+}
+
+footer img {
+	width: 1366px;
+	height: 9px;
+	margin-top: 72.75px;
+	padding: 0 0 20px 0;
+}
+
+#social img {
+	width: 33px;
+	height: 33px;
+}
+
+.twitter {
+	z-index: 2;
+	position: absolute;
+	top: 2655px;
+	left: 1297px;
+}
+
+.email {
+	z-index: 2;
+	position: absolute;
+	top: 2655px;
+	left: 1097px;
+}
+
+.fb {
+	z-index: 2;
+	position: absolute;
+	top: 2655px;
+	left: 1163px;
+}
+
+.instagram {
+	z-index: 2;
+	position: absolute;
+	top: 2655px;
+	left: 1230px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
